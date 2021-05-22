@@ -1,0 +1,22 @@
+.section__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-image: url(../);
+}
+.section__header--searched {
+  margin-top: 15px;
+}
+
+.section__header--search {
+  width: 300px;
+  border-radius: 5px;
+}
+.section__header--button {
+  width: 60px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
