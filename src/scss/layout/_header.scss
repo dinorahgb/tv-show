@@ -4,7 +4,12 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-image: url(../images/camera-219958_340webp);
+  background-image: url(../image);
+}
+.section__header--title {
+  font-family: $font-family;
+  font-size: 30px;
+  font-weight: bold;
 }
 .section__header--searched {
   margin-top: 15px;
@@ -12,11 +17,12 @@
 
 .section__header--search {
   width: 300px;
-  border-radius: 5px;
+  border-radius: 15px;
+  height: 25px;
 }
 .section__header--button {
   width: 60px;
   background-color: black;
   color: white;
-  border-radius: 5px;
+  border-radius: 15px;
 }
