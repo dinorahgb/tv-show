@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Buscador de Series</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="icon" href="./assets/images/favicon.png" />
+  </head>
+
+  <body>
+    <div>
+      <header class="section__header">
+        <h1 class="section__header--title">Buscador de Series</h1>
+        <form action="#" method="POST">
+          <div class="section__header--searched">
+            <label for="search"></label>
+            <input
+              class="section__header--search js-textSearch"
+              type="text"
+              placeholder="Ej: Game Of Throne"
+              name="search"
+            />
+            <label for="button"></label>
+            <input
+              class="section__header--button js-buttonSearch"
+              type="button"
+              value="Buscar"
+              name="button"
+              id="button"
+            />
+          </div>
+        </form>
+      </header>
+
+      <main class="section__series">
+        <section class="section__favorites">
+          <h2 class="section__series--title">Mis Series Favoritas</h2>
+          <input
+            class="section__favorites--buttonDelete js-buttonDelete"
+            type="button"
+            value="Vaciar"
+            name="button"
+          />
+          <ul class="section__favorites--list js-listFavorites"></ul>
+        </section>
+        <section class="section__result">
+          <h2 class="section__series--title">Resultado de Búsqueda</h2>
+          <ul class="section__result--list js-listResult"></ul>
+        </section>
+      </main>
+
+      <footer class="page__footer">
+        <small> &copy; Todos los derechos reservados </small>
+      </footer>
+
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
