@@ -3,27 +3,57 @@
   flex-direction: row;
   text-align: center;
 }
-.section__series--title {
+.section__series--titles {
+  height: 50px;
+  background-image: url("//cdn.pixabay.com/photo/2018/09/24/17/34/cinema-3700446__340.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
   font-family: $font-family;
   font-weight: bold;
   font-size: $font-size-title;
 }
-
+.section__series--title {
+  padding-top: 10px;
+}
 .section__favorites {
   width: 40%;
-  background-color: #845ec2;
   padding-top: 10px;
 }
 .section__favorites--buttonDelete {
+  font-family: $font-family;
   background-color: black;
   color: white;
+  border-bottom: 2px solid white;
   border-radius: 15px;
   margin-top: 5px;
-  margin-bottom: 5px;
 }
-
 .section__result {
   width: 60%;
-  background-color: #d65db1;
   padding-top: 10px;
+}
+.section__list {
+  padding-top: 30px;
+}
+.js-serieFavorite {
+  padding: 10px;
+  background-color: lightyellow;
+}
+.js-serie {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.js-liSelect {
+  background-image: url("//cdn.pixabay.com/photo/2018/04/02/09/59/charlie-chaplin-3283421__340.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.js-serieTitle {
+  font-size: $font-size-title;
+  font-family: $font-family;
+  color: black;
+  margin-bottom: 5px;
 }
