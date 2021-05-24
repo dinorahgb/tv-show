@@ -72,3 +72,5 @@ src
        ├─ 05_localStorage
        └─ 06_delete
 ```
+
+**NOTA:** Este proyecto no es responsive
