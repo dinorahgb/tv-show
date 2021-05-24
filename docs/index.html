@@ -8,6 +8,11 @@
       href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/favicon.png" />
   </head>
@@ -39,23 +44,28 @@
 
       <main class="section__series">
         <section class="section__favorites">
-          <h2 class="section__series--title">Mis Series Favoritas</h2>
-          <input
-            class="section__favorites--buttonDelete js-buttonDelete"
-            type="button"
-            value="Vaciar"
-            name="button"
-          />
-          <ul class="section__favorites--list js-listFavorites"></ul>
+          <div class="section__series--titles">
+            <h2>Mis Series Favoritas</h2>
+
+            <input
+              class="section__favorites--buttonDelete js-buttonDelete"
+              type="button"
+              value="Vaciar"
+              name="button"
+            />
+          </div>
+          <ul class="section__list js-listFavorites"></ul>
         </section>
         <section class="section__result">
-          <h2 class="section__series--title">Resultado de Búsqueda</h2>
-          <ul class="section__result--list js-listResult"></ul>
+          <div class="section__series--titles">
+            <h2 class="section__series--title">Resultado de Búsqueda</h2>
+          </div>
+          <ul class="section__list js-listResult"></ul>
         </section>
       </main>
 
-      <footer class="page__footer">
-        <small> &copy; Todos los derechos reservados </small>
+      <footer class="section__footer">
+        <small> &copy 2021; Todos los derechos reservados </small>
       </footer>
 
     </div>
