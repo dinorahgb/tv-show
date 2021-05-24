@@ -8,24 +8,24 @@ El ejercicio consiste en desarrollar una aplicación web que nos permita buscar 
 
 ## Interacción con la página
 
-### Búsqueda
+#### Búsqueda
 
 Para iniciar la búsqueda de series tenemos un campo de texto en el cual introducimos el título de la serie que deseamos consultar y pulsamos (Click) el botón 'Buscar'.
 
-### Resultados
+#### Resultados
 
 En la sección denominada 'Resultado de Búsueda' se nos mostrarán, tanto el título como una imagen de todas las opciones disponibles para el valor indicado en el campo de texto.
 
-### Selección
+#### Selección
 
 Una vez visualizadas las opciones en la sección 'Resultado de Búsueda', la usuaria puede realizar la selección de su preferencia para añadirlo a la sección denominada 'Mis Series Favoritas'. Para ello, deberá hacer click sobre el elemento.
 
-### Validar selección
+#### Validar selección
 
 Para asegurarnos de que el elemento seleccionado es el que queremos, se le añadirá un color de fondo y automáticamente se nos mostrará en la sección denominada 'Mis Series Favoritas', ubicada en la parte izquierda de la pantalla.
 Este listado se mantendrá guardado aunque se realice una nueva búsqueda o se actualice la página.
 
-### Eliminar de 'Mis Series Favoritas'
+#### Eliminar de 'Mis Series Favoritas'
 
 Para eliminar un elemento del listado debe hacer click sobre dicho elemento.
 Si desea borrar toda la información almacenada en la sección, debe pulsar el botón 'Vaciar'.
@@ -36,6 +36,7 @@ Si desea borrar toda la información almacenada en la sección, debe pulsar el b
 - Editor de código Visual Studio Code
 - Node JS
 - Git
+
   **NOTA:** Estas herramientas son las requeridas para poder utilizar o colaborar en el proyecto.
 
 ## Estructura de las carpetas
