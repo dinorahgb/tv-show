@@ -1,5 +1,3 @@
-![Buscador de Series](http://beta.adalab.es/modulo-2-evaluacion-final-Laura733/)
-
 # Buscador de series
 
 Página desarrollada con la finalidad de aplicar los conocimientos y la utilización de diversas herramientas informáticas, adquiridas durante el segundo módulo del curso de programación, dictado por Adalab.
