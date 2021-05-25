@@ -4,7 +4,8 @@
 
 Página desarrollada con la finalidad de aplicar los conocimientos y la utilización de diversas herramientas informáticas, adquiridas durante el segundo módulo del curso de programación, dictado por Adalab.
 
-El ejercicio consiste en desarrollar una aplicación web que nos permita buscar series online e incluirlas en un listado de series favoritas y guardarlo en el localStorage.
+El ejercicio consiste en desarrollar una aplicación web que nos permita buscar series online, partiendo del API abierto de TVMaze para
+búsqueda de series, e incluirlas en un listado de series favoritas y guardarlo en el localStorage.
 
 ## Interacción con la página
 
@@ -38,6 +39,10 @@ Si desea borrar toda la información almacenada en la sección, debe pulsar el b
 - Git
 
   **NOTA:** Estas herramientas son las requeridas para poder utilizar o colaborar en el proyecto.
+
+## Esquema de funcionamiento
+
+![Esquema](/imagen/Esquema.jpg)
 
 ## Estructura de las carpetas
 
