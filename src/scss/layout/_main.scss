@@ -50,10 +50,15 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-
 .js-serieTitle {
   font-size: $font-size-title;
   font-family: $font-family;
   color: black;
   margin-bottom: 5px;
+}
+.js-favorite {
+  background-image: url("//cdn.pixabay.com/photo/2018/04/02/09/59/charlie-chaplin-3283421__340.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }

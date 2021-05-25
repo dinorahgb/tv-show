@@ -8,12 +8,16 @@ function onFavoriteClick() {
 function selectFavorite(ev) {
   const liSelect = ev.currentTarget;
   const serieId = parseInt(ev.currentTarget.id);
-  liSelect.classList.toggle("js-liSelect");
-
-  const objSerie = listResult.find((serie) => serie.show.id === serieId);
-
-  listFavorites.push(objSerie);
-
+  liSelect.classList.add("js-liSelect");
+  const serieIndex = listFavorites.findIndex(
+    (serie) => serie.show.id === serieId
+  );
+  if (serieIndex === -1) {
+    const objSerie = listResult.find((serie) => serie.show.id === serieId);
+    listFavorites.push(objSerie);
+  } else {
+    alert("Esta serie ya está en favoritos");
+  }
   paintFavorites();
 }
 

@@ -7,11 +7,14 @@ function handlerSearchButton(ev) {
     .then((data) => {
       listResult = data;
 
-      paintseries();
+      paintSeries();
     });
 }
-/*function preventIntro(ev) {
-  ev.preventDefault;
-}*/
 
 searchButton.addEventListener("click", handlerSearchButton);
+
+function handlerFormSubmit(ev) {
+  ev.preventDefault();
+}
+
+formSearch.addEventListener("submit", handlerFormSubmit);

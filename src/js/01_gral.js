@@ -1,5 +1,6 @@
 "use strict";
 
+const formSearch = document.querySelector(".js-form");
 const searchButton = document.querySelector(".js-buttonSearch");
 const textSearch = document.querySelector(".js-textSearch");
 const listResultElement = document.querySelector(".js-listResult");
