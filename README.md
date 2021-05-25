@@ -42,7 +42,7 @@ Si desea borrar toda la información almacenada en la sección, debe pulsar el b
 
 ## Esquema de funcionamiento
 
-![Esquema](/imagen/Esquema.jpg)
+![Esquema](https://github.com/Adalab/modulo-2-evaluacion-final-Laura733/blob/master/src/imagen/Esquema.jpg)
 
 ## Estructura de las carpetas
 
