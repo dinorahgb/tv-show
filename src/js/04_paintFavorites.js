@@ -3,7 +3,6 @@ function onFavoriteClick() {
   for (const serie of allSeries) {
     serie.addEventListener("click", selectFavorite);
   }
-  saveListFavorites();
 }
 
 function selectFavorite(ev) {
@@ -19,6 +18,7 @@ function selectFavorite(ev) {
 }
 
 function paintFavorites() {
+  listFavoritesElement.innerHTML = "";
   for (const serie of listFavorites) {
     const listSerie = document.createElement("li");
     listSerie.setAttribute("class", "js-serieFavorite");

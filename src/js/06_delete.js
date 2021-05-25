@@ -1,8 +1,14 @@
-/*function onResetClick() {
-  localStorage.removeItem("listFavorites");
+//DeleteListFavoritos
+function onResetClick() {
+  listFavorites = [];
+
+  paintFavorites();
+  saveListFavorites();
 }
 
-buttonDelete.addEventListener("click", onResetClick);*/
+buttonDelete.addEventListener("click", onResetClick);
+
+//DeleteOneFavorito
 
 function onDeleteFavoriteClick() {
   const allSeries = document.querySelectorAll(".js-serieFavorite");
@@ -12,11 +18,13 @@ function onDeleteFavoriteClick() {
 }
 
 function selectDeleteFavorite(ev) {
-  //const liSelect = ev.currentTarget;
   const serieId = parseInt(ev.currentTarget.id);
-  const objSerie = listFavorites.find((serie) => serie.show.id === serieId);
+  const serieIndex = listFavorites.findIndex(
+    (serie) => serie.show.id === serieId
+  );
 
-  listFavorites.splice(objSerie, 1);
+  listFavorites.splice(serieIndex, 1);
 
   paintFavorites();
+  saveListFavorites();
 }

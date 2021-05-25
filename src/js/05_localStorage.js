@@ -3,7 +3,7 @@ const saveListFavorites = () => {
 };
 
 const getFavorites = () => {
-  let favorites = JSON.parse(localStorage.getItem("ListFavorites"));
+  let favorites = JSON.parse(localStorage.getItem("ListFavorite"));
   paintFavorites();
   if (favorites !== null) {
     listFavorites = favorites;
