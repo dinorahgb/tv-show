@@ -1,4 +1,4 @@
-![Buscador de Series](https://beta.adalab.es/modulo-2-evaluacion-final-laura733/)
+![Buscador de Series](https://github.com/Adalab/modulo-2-evaluacion-final-Laura733)
 
 # Buscador de series
 
