@@ -12,6 +12,10 @@ function paintSeries() {
     listResultElement.appendChild(listSerie);
     const serieImage = document.createElement("img");
     listSerie.appendChild(serieImage);
+    const genSerie = document.createElement("h3");
+    listSerie.appendChild(genSerie);
+    const textGenSerie = document.createTextNode(serie.show.genres);
+    genSerie.appendChild(textGenSerie);
 
     if (serie.show.image === null) {
       serieImage.src = imageDefault;

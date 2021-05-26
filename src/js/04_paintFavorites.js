@@ -8,7 +8,7 @@ function onFavoriteClick() {
 function selectFavorite(ev) {
   const liSelect = ev.currentTarget;
   const serieId = parseInt(ev.currentTarget.id);
-  liSelect.classList.add("js-liSelect");
+  /* liSelect.classList.add("js-liSelect");
   const serieIndex = listFavorites.findIndex(
     (serie) => serie.show.id === serieId
   );
@@ -18,7 +18,9 @@ function selectFavorite(ev) {
   } else {
     alert("Esta serie ya está en favoritos");
   }
-  paintFavorites();
+  paintFavorites();*/
+  const searchSerie = listResult.find((search) => search.show.id === serieId);
+  console.log(searchSerie.show.name);
 }
 
 function paintFavorites() {
